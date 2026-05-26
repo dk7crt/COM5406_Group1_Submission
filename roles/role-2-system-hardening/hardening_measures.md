@@ -1,4 +1,4 @@
-# Hardening Measures – Before/After Comparison
+# Hardening Measures  – Before/After Comparison
 
 ## Measure 1: Disable debug mode in production
 
