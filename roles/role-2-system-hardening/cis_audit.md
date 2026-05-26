@@ -1,7 +1,7 @@
 
 # CIS Ubuntu 24.04 LTS Benchmark – IG1 Controls
 
-**Audit date:** 26 May 2026
+**Audit date:** 22st May 2026
 
 ## Control 5.3 – Password expiry policy
 

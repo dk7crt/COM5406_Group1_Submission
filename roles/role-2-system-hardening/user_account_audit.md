@@ -1,6 +1,6 @@
 # User Account Audit – Bee Pies Server
 
-**Date:** 26 May 2026  
+**Date:** 21 May 2026  
 **Auditor:** System Hardening Lead
 
 ## Accounts with login shells (`/bin/bash`)
