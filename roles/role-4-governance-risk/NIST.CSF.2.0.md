@@ -7,7 +7,7 @@
 ### 1. Purpose
 This policy defines how user identities, authentication, are managed within the Bee Pies and Pasties system to prevent unauthorised access to customer data, interna files, and proprietary recipes.
 
-### 2. Scipe
+### 2. Scope
 This policy applies to:
 - The Bee Pies ordering system.
 - The server that's hosting the application.

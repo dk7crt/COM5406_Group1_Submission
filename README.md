@@ -6,7 +6,7 @@ Adeena this is my commit  this proves my push works!  😀🎉 push to git comme
 Howard finally managed to git commit.
 Victor has added to the project 
 
-Team Name:
+Team Name: The Immigrants
 
 Group Number: 1
 
