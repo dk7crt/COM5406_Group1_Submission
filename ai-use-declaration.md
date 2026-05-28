@@ -11,4 +11,4 @@ This AI Tool was used  understand the hacker’s  server terminal commands, anal
   Network and threat modelling lead:
   AI tools were used as a support tool during this assignment. I used ChatGPT,and Claude to help organise my notes, improve clarity of wording, summarise technical evidence, and check whether my explanations were concise and understandable.
 
-All investigation work, evidence selection, command outputs, screenshots, repository artefacts, and final decisions were reviewed and controlled by me. The AI tool did not independently perform the investigation or replace my own analysis. I verified the technical content against the evidence available in the Bee Pies & Pasties environment before including it in my submission.
+All investigation work, evidence selection, command outputs, artefacts, and final decisions were reviewed and controlled by me. The AI tool did not independently perform the investigation or replace my own analysis. I verified the technical content against the evidence available in the Bee Pies & Pasties environment before including it in my submission.
