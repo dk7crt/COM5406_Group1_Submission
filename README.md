@@ -4,7 +4,7 @@ Group Number: 1
 
 Member Names:
 - Daniel Kolasinski
-- Adeena Fayyazz
+- Adeena Fayyaz
 - Maduabuchukwu Victor Orizu
 - Howard Wai
 
