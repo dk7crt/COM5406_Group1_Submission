@@ -4,13 +4,13 @@ Group Number: 1
 
 Member Names:
 - Daniel Kolasinski
-- Adeena Fayyaz
+- Adeena Fayyazz
 - Maduabuchukwu Victor Orizu
 - Howard Wai
 
 Role Assignments:
 - Code Security Lead: Daniel
-- System Hardening Lead: Adeena
+- System Hardening Lead: Adeena Fayyaz
 - Network and Threat Modelling Lead: Victor
 - Governance and Risk Lead: Howard
 
