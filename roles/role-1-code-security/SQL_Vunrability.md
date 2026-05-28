@@ -1,15 +1,25 @@
-user = db.execute(
-    f"SELECT * FROM admin_users WHERE username = '{username}' AND password = '{password}'"
-).fetchone()
+        if user:
+            session['admin'] = True
+            session['admin_user'] = username
+            db.execute(
+                f"UPDATE admin_users SET last_login = datetime('now') WHERE username = '{username}'"
+            )
+            db.commit()
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-user = db.execute(
-    "SELECT * FROM admin_users WHERE username = ? AND password = ?",
-    (username, password)
-).fetchone()
+    session['admin_user'] = username
+    user = db.execute(
+        "SELECT * FROM admin_users WHERE username = ?", (username,)
+    ).fetchone()
+    
+    # Use password_hash to securely verify
+    if user and password_hash(user['password'], password):
+        session['admin'] = True
 
 # The vulnerable f-string login query was replaced with a parameterized query. This ensures usernames and passwords are treated as data instead of executable SQL, preventing authentication bypass through SQL injection.
+# this also changes the veriable of password to be factor into getting the session making sure it is code additionally, ir doesn't set the session as admin until the code is sql is ran.
+! this code is only ran with the password hash.
 
 ============================================================================
 
